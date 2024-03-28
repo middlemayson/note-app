@@ -1,0 +1,26 @@
+.notesArea {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin: 24px 32px;
+    flex-wrap: wrap;
+
+    .singleNote {
+        max-width: 100%;
+        background: white;
+        border: 1px solid #E9E9E9;
+        border-radius: 16px;
+        gap: 32px;
+        padding: 32px;
+        color: #797979;
+        box-shadow: 0 16px 24px rgba(0, 0, 0, 0.05);
+        transition: .3s;
+
+        &:hover {
+            box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+            color: #000;
+            cursor: pointer;
+        }
+    }
+}
+

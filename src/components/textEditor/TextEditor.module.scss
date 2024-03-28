@@ -1,0 +1,50 @@
+.card {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin: 24px 32px;
+    border: 1px solid #E9E9E9;
+    border-radius: 16px;
+    gap: 32px;
+    padding: 32px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.05);
+
+    textarea {
+        resize: none;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16pt;
+        color: #797979;
+        transition: .3s;
+        height: auto;
+
+        &:hover {
+            padding-left: 8px;
+            color: #000000;
+        }
+        &:focus {
+            outline: none;
+            color: #000000;
+        }
+    }
+
+    textarea:first-child {
+        font-size: 36pt;
+        font-family: "Playfair Display", serif;
+        overflow: hidden;
+    }
+
+    .status {
+        text-align: left;
+        color: #E9E9E9;
+
+
+        .warning {
+            color: #C93A3A;
+        }
+    }
+
+    .statusDots {
+        transition: letter-spacing 0.3s ease;
+    }
+}

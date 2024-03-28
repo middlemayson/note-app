@@ -1,0 +1,25 @@
+.addNote {
+    background-color: #fff;
+    padding: 32px;
+    border: 1px solid #E9E9E9;
+    border-radius: 50%;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.05);
+    font-size: 32pt;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #797979;
+    transition: .3s;
+
+    &:hover {
+        box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        color: #000;
+    }
+}
